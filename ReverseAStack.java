@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class ReverseAStack {
     public static void pushAtBottom(int data, Stack<Integer> s){
-        if(s.isEmpty()){
+        if(s.isEmpty()){ 
             s.push(data);
             return;
         }
